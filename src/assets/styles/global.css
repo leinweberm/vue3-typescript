@@ -1,0 +1,34 @@
+.fx {
+	display: flex;
+}
+
+.appContent {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	width: -moz-available;
+	width: -webkit-fill-available;
+	width: fill-available;
+	height: 100vh;
+	height: -moz-available;
+	height: -webkit-fill-available;
+	height: fill-available;
+}
+
+.navContainer {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	flex-direction: row;
+	
+}
+
+.projectsContent {
+	display: flex;
+	container-type: inline-size;
+	container-name: projects;
+}
+
+@container projects (min-width: 768px) {
+	
+}

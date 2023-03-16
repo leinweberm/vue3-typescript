@@ -1,0 +1,11 @@
+:root {
+	--lightBlue: #add2e4;
+	--blue: #add2e4;
+	--white: #ffffff;
+	--lightPink: #f678a7;
+	--pink: #e64072;
+}
+
+body {
+	background-color: var(--surface-a);
+}
